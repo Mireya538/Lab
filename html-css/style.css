@@ -1,0 +1,10 @@
+.normal-flow {position: static;}
+.relative-positioning {position: relative; left: 30px;}
+.absolute-positioning {position: absolute;}
+.fixed-positioning {position: fixed;}
+.float {float: left;}
+
+div .absolute-positioning {top: 0; right: 0; background: gray; color: white;}
+div .fixed-positioning {top: 2em; left: 1.5em; background: gray; color: white;}
+div .float { width: 3.8em; float: left;}
+.col-1 { width: 400px; }
