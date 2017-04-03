@@ -1,0 +1,33 @@
+	@media print {
+	/* Images */
+	.landing-banner, .nav-right, .stickyfooter div {
+		display: none;
+	}
+
+	/* Box-model */
+	.boxmodel {
+		background-color: white;
+		border: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	/* Footer */
+	.stickyfooter {
+		border-top: solid 2px;
+		width: 100%;
+		height: 50px;
+		background: white;
+		position: initial;
+		padding: 0;
+	}
+
+	.content {
+		padding-bottom: 0; 
+	}
+
+	/* Header */
+	.nav-left h1 {
+		font-size: 2.5em;
+	}
+}

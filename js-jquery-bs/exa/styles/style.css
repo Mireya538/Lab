@@ -1,0 +1,54 @@
+/* Initial setting */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	font-family:'Open Sans', sans-serif;
+	margin: 5px;
+}
+
+.content {
+	padding-bottom:100px; 
+}
+
+/* Footer */
+.stickyfooter {
+	background: #ffab62;
+	width: 100%;
+	/*height: 80px;*/
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+
+.current-page a, .current-page { color: black;  text-decoration: none;}
+
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.blue {
+	color: #2F6CE8;
+}
+
+/* Box-model */
+.box-model {
+	background-color: #FFB36C;
+	border: solid 1px black;
+	padding: 5px;
+	margin: 10px;
+}
+
+.interline {
+	text-decoration: line-through;
+}
+
+.underline-free {
+	text-decoration: none;
+}
