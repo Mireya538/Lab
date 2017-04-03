@@ -2,72 +2,84 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="styles/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="styles/style.css" />
-	<link rel="stylesheet" type="text/css" href="styles/desktop_first.css" />
-	<!-- <link rel="stylesheet" type="text/css" href="styles/mobile_first.css" /> -->
-	<link rel="stylesheet" type="text/css" href="styles/print.css" /> 
 	<title>Exa Mireya ML</title>
 </head>
 <body>
 	<header>
-		<nav>
-			<div class="float-left">
-				<h1>UNA Web [ Mireya ML ]</h1>
-			</div>
-			<div class="nav-right">
-				<ul>
-					<li class="current-page"><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Courses</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+		    	<!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">UNA Web [ Mireya ML ]</a>
+			    </div>	
+
+		    	<!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    	<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Courses</a></li>
+						<li><a href="#">Contact</a></li>
+		    		</ul>
+			    </div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
 		</nav>
-		<div class="home-banner">
-			<!-- <img alt="" src="images/Callanish.jpg" class="landing-banner"> -->
-			<img alt="" src="images/Craigh-na-Dun.jpg" class="landing-banner">
-		</div>
 	</header>
-	<aside class="content float-left">
-		<section class="col-1">
-			<h2>Main Section</h2>
-			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed diam lacus. Maecenas mollis ultrices augue nec finibus. Proin ac ipsum nec purus ultrices feugiat. Vivamus mattis molestie scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum placerat, arcu ac hendrerit suscipit, diam felis bibendum neque, eget elementum elit tortor vitae felis. Donec et egestas ligula. Nullam at massa velit. Maecenas massa nulla, tincidunt quis felis et, condimentum convallis diam. Etiam semper leo sed fermentum malesuada. Nullam scelerisque purus vel ante consequat, eu consequat felis gravida. Pellentesque in orci eget felis placerat venenatis.</p>
-			<p>Nulla facilisi. Vivamus pulvinar quis ligula non placerat. Donec sit amet leo sem. In at metus auctor, dignissim lorem eu, dapibus quam. Integer accumsan mauris quis venenatis rhoncus. Morbi orci lectus, pulvinar vel neque in, vulputate auctor nibh. Nulla sed quam in nulla sagittis dictum at a quam. Vestibulum consectetur viverra turpis a lobortis. Praesent feugiat nisl sed convallis volutpat. Nullam ac lacinia nisi. Morbi nec vehicula ante. Praesent eget congue justo. Fusce ipsum magna, convallis eget est nec, rutrum ornare lacus. Proin sit amet magna iaculis, molestie purus ut, ornare tellus.</p>
-			<p>Vestibulum sem magna, vulputate vel lacus vitae, imperdiet placerat lectus. Integer in quam dignissim, semper mi id, egestas tellus. Mauris convallis rhoncus justo et fringilla. Curabitur suscipit metus eget mauris vulputate, sit amet porttitor nibh mollis. Vestibulum quis velit et nulla sagittis scelerisque. Duis sit amet euismod massa. Mauris venenatis blandit elit suscipit consectetur. Morbi gravida massa in augue molestie posuere sed tempor dui. Nulla dignissim tristique nunc ac dignissim. Nam blandit tristique elementum. Donec at bibendum mi. Aenean sagittis nulla ut placerat vulputate. Phasellus eu tincidunt ex. Integer vel neque felis. Nullam ultricies nunc turpis, sed volutpat urna ornare aliquet. Ut nulla nunc, mollis vitae mi et, congue fermentum orci. </p>
-		</section>
-		<section class="col-2">
-			<h3 class="blue">Sub-section Center</h3>
-			<p class="box-model"> A <b>paragraf</b> of a <span class="red">text</span> with an <a href="#">unassigned link.</a><br>
-			A <i>second</i> row of <span class="interline">text</span> with a <a href="http://www.movebase.co.uk/images/scotlandlarge.jpg" class="underline-free">web link</a></p>
-			<img alt="" src="images/scotland.jpg" class="landing-banner col-img">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed diam lacus. Maecenas mollis ultrices augue nec finibus. Proin ac ipsum nec purus ultrices feugiat. Vivamus mattis molestie scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum placerat, arcu ac hendrerit suscipit, diam felis bibendum neque, eget elementum elit tortor vitae felis.</p>
-			<p>Donec et egestas ligula. Nullam at massa velit. Maecenas massa nulla, tincidunt quis felis et, condimentum convallis diam. Etiam semper leo sed fermentum malesuada. Nullam scelerisque purus vel ante consequat, eu consequat felis gravida. Pellentesque in orci eget felis placerat venenatis.</p>
-		</section>
-		<section class="col-3">
-			<h3 class="blue">Sub-section Rigth</h3>
-			<span>We open at <b><span class="red">10:00</span></b> every morning</span>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed diam lacus. Maecenas mollis ultrices augue nec finibus. Proin ac ipsum nec purus ultrices feugiat. Vivamus mattis molestie scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum placerat, arcu ac hendrerit suscipit, diam felis bibendum neque, eget elementum elit tortor vitae felis.</p>
-			<article>
-				<h3 class="green">Sub-Sub-section</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed diam lacus. Maecenas mollis ultrices augue nec finibus. Proin ac ipsum nec purus ultrices feugiat. Vivamus mattis molestie scelerisque.</p>
-				<img alt="" src="images/scotland-3.jpg" class="landing-banner col-img">
+	<section>
+		<div class="col-md-12 col-xs-12">
+			<img alt="" src="images/Craigh-na-Dun.jpg" class="img-responsive">
+		</div>
+		<aside>
+			<section class="col-md-6">
+				<h2>Main Section</h2>
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed diam lacus. Maecenas mollis ultrices augue nec finibus. Proin ac ipsum nec purus ultrices feugiat. Vivamus mattis molestie scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum placerat, arcu ac hendrerit suscipit, diam felis bibendum neque, eget elementum elit tortor vitae felis. Donec et egestas ligula. Nullam at massa velit. Maecenas massa nulla, tincidunt quis felis et, condimentum convallis diam. Etiam semper leo sed fermentum malesuada. Nullam scelerisque purus vel ante consequat, eu consequat felis gravida. Pellentesque in orci eget felis placerat venenatis.</p>
+				<p>Nulla facilisi. Vivamus pulvinar quis ligula non placerat. Donec sit amet leo sem. In at metus auctor, dignissim lorem eu, dapibus quam. Integer accumsan mauris quis venenatis rhoncus. Morbi orci lectus, pulvinar vel neque in, vulputate auctor nibh. Nulla sed quam in nulla sagittis dictum at a quam. Vestibulum consectetur viverra turpis a lobortis. Praesent feugiat nisl sed convallis volutpat. Nullam ac lacinia nisi. Morbi nec vehicula ante. Praesent eget congue justo. Fusce ipsum magna, convallis eget est nec, rutrum ornare lacus. Proin sit amet magna iaculis, molestie purus ut, ornare tellus.</p>
+				<p>Vestibulum sem magna, vulputate vel lacus vitae, imperdiet placerat lectus. Integer in quam dignissim, semper mi id, egestas tellus. Mauris convallis rhoncus justo et fringilla. Curabitur suscipit metus eget mauris vulputate, sit amet porttitor nibh mollis. Vestibulum quis velit et nulla sagittis scelerisque. Duis sit amet euismod massa. Mauris venenatis blandit elit suscipit consectetur. Morbi gravida massa in augue molestie posuere sed tempor dui. Nulla dignissim tristique nunc ac dignissim. Nam blandit tristique elementum. Donec at bibendum mi. Aenean sagittis nulla ut placerat vulputate. Phasellus eu tincidunt ex. Integer vel neque felis. Nullam ultricies nunc turpis, sed volutpat urna ornare aliquet. Ut nulla nunc, mollis vitae mi et, congue fermentum orci. </p>
+			</section>
+			<section class="col-md-3">
+				<h3 class="blue">Sub-section Center</h3>
+				<p class="box-model"> A <b>paragraf</b> of a <span class="red">text</span> with an <a href="#">unassigned link.</a><br>
+				A <i>second</i> row of <span class="interline">text</span> with a <a href="http://www.movebase.co.uk/images/scotlandlarge.jpg" class="underline-free">web link</a></p>
+				<img alt="" src="images/scotland.jpg" class="img-responsive">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed diam lacus. Maecenas mollis ultrices augue nec finibus. Proin ac ipsum nec purus ultrices feugiat. Vivamus mattis molestie scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum placerat, arcu ac hendrerit suscipit, diam felis bibendum neque, eget elementum elit tortor vitae felis.</p>
+				<p>Donec et egestas ligula. Nullam at massa velit. Maecenas massa nulla, tincidunt quis felis et, condimentum convallis diam. Etiam semper leo sed fermentum malesuada. Nullam scelerisque purus vel ante consequat, eu consequat felis gravida. Pellentesque in orci eget felis placerat venenatis.</p>
+			</section>
+			<section class="col-md-3">
+				<h3 class="blue">Sub-section Rigth</h3>
+				<span>We open at <b><span class="red">10:00</span></b> every morning</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed diam lacus. Maecenas mollis ultrices augue nec finibus. Proin ac ipsum nec purus ultrices feugiat. Vivamus mattis molestie scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum placerat, arcu ac hendrerit suscipit, diam felis bibendum neque, eget elementum elit tortor vitae felis.</p>
 				<article>
-					<h3 class="red">Sub-Sub-Sub-section</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				</article>
-			</article>
-			
-		</section>
-	</aside>
-	<footer class="stickyfooter">
+					<h3 class="green">Sub-Sub-section</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed diam lacus. Maecenas mollis ultrices augue nec finibus. Proin ac ipsum nec purus ultrices feugiat. Vivamus mattis molestie scelerisque.</p>
+					<img alt="" src="images/scotland-3.jpg" class="img-responsive">
+					<article>
+						<h3 class="red">Sub-Sub-Sub-section</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</article>
+				</article>	
+			</section>
+
+		</aside>
+	</section>
+
+	<footer>
 		<div>
-			<a href="#" class="current-page">Home</a> | 
+			<a href="#">Home</a> | 
 			<a href="#">About</a> | 
 			<a href="#">Courses</a> | 
 			<a href="#">Contact</a>
 		</div>
 		<p>Copyright &copy; 2017. Curso de Dise&ntilde;o Web</p>
 	</footer>
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>
